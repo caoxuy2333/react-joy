@@ -1,0 +1,40 @@
+{
+  "name": "react-joy",
+  "version": "1.1.2",
+  "description": "摇杆",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --config --configPlugin @rollup/plugin-typescript",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caoxuy2333/react-joy.git"
+  },
+  "keywords": [
+    "react",
+    "joy"
+  ],
+  "author": "cxy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caoxuy2333/react-joy/issues"
+  },
+  "homepage": "https://github.com/caoxuy2333/react-joy#readme",
+  "devDependencies": {
+    "@babel/core": "^7.24.3",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup-plugin-less": "^1.1.3",
+    "tslib": "^2.6.2"
+  },
+  "dependencies": {
+    "@types/react": "^18.2.67",
+    "@typescript-eslint/parser": "^7.3.1",
+    "react": "^18.2.0",
+    "rollup": "^4.13.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "typescript": "^5.4.3"
+  }
+}
