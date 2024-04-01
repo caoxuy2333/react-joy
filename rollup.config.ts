@@ -14,7 +14,7 @@ const config: RollupOptions = {
   }, {
     file: 'dist/index.min.js',
     format: 'iife',
-    name: 'version',
+    name: 'reactJoy',
     plugins: [terser() ]
   }],
   plugins: [postcss({

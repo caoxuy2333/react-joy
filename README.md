@@ -1,6 +1,6 @@
-# React-joy v1.1.2
+# React-joy
 
-The react-joy library exported as Web modules.
+The react-joy library exported as H5 modules.
 
 ## Install
 Using npm:
@@ -15,7 +15,7 @@ $ npm i react-joy
     'FORWARD',
     'BACKWARD',
   }
-  directionProps {
+  interface directionProps {
     direction: LRFB,
     x: number,
     y: number
@@ -34,4 +34,13 @@ $ npm i react-joy
   <Joy handleMove={handleMove} handleStop={handleStop} />
 ```
 
-## thx
+## dom move function
+
+```onPointerDown```
+```onPointerUp```
+```onPointerMove```
+
+## DEMO
+http://cxyhaha.cn/gba
+
+--- thx ---
